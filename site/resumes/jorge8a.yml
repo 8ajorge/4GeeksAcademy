@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Ochoa
+    
+    # Define yourself in 4-5 words
+    motto: Always learning to create
+    
+    # Focus
+    focus: Embedded Software and Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mechatronics Engineer with experience in embedded software, numerical analysis, and algorithmdevelopment.
+      Passionate about motorsport technology, data-driven optimization, and softwareengineering. 
+      Strong background in C programming, data analysis, and control systems, with experiencein simulation and testing environments.
+      Currently starting an Machine Learning and Data Science course.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jorgel8aislas@gmail.com
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/8ajorge
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Travel
+
+      - item: MMA
+
+# Your previous education
+education:
+    - degree: BSc in Mechatronics Engineering
+      university: Universidad del Valle de Atemajac
+      # optional
+      university_logo:
+      time: 2019 - 2022
+      details: |
+          Automated Greehouse
+          Developing AC/DC Motor
+          Matlab control theory
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Embedded Software Engineer
+      time: 2023 - Present
+      company: Robert Bosch, San Francisco
+      # optional
+      company_logo: 
+      details: |
+        Create the network communication between ECU´s with AUTOSAR standards.
+        Integrate final SW to plant release.
+        Implementation of new algorithms in C language for checksums and counters
+        I leadership an initiative about cost-efficiency.
+        Teaching and mentoring of interns.
+        Doing Unit Testing and Software Testing to validate new implementations
+        Debugging errors using a simulation of car
+        Developed and implemented algorithms in C to optimize ECU communication, improving
+        efficiency and accuracy, using numerical analysis methods.
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: C
+        level: 78%
+
+      - name: HIL/SIL
+        level: 98%
+
+      - name: Vector Tools
+        level: 75%
